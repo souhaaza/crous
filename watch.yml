@@ -1,0 +1,39 @@
+name: Surveillance CROUS
+
+on:
+  schedule:
+    # Toutes les 15 minutes. GitHub ne garantit pas une exécution pile à
+    # l'heure (parfois quelques minutes de retard), mais c'est le minimum
+    # raisonnable et gratuit.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}  # permet de le lancer manuellement depuis l'onglet Actions
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Lancer la vérification
+        env:
+          CROUS_URL: ${{ vars.CROUS_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python crous_watcher.py
+
+      - name: Sauvegarder l'état (annonces déjà vues)
+        run: |
+          git config user.name "crous-watcher-bot"
+          git config user.email "actions@github.com"
+          git add state.json
+          git diff --staged --quiet || git commit -m "Mise à jour de l'état des annonces"
+          git push
