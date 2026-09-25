@@ -9,14 +9,14 @@
     "price": "prix non trouvé",
     "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2594"
   },
-  "/tools/47/accommodations/2546": {
-    "title": "RESIDENCE EINSTEIN",
-    "price": "prix non trouvé",
-    "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2546"
-  },
   "/tools/47/accommodations/2607": {
     "title": "CITE BELLE BEILLE",
     "price": "prix non trouvé",
     "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2607"
+  },
+  "/tools/47/accommodations/2546": {
+    "title": "RESIDENCE EINSTEIN",
+    "price": "prix non trouvé",
+    "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2546"
   }
 }
