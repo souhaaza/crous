@@ -4,14 +4,14 @@
     "price": "prix non trouvé",
     "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2607"
   },
-  "/tools/47/accommodations/2546": {
-    "title": "RESIDENCE EINSTEIN",
-    "price": "prix non trouvé",
-    "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2546"
-  },
   "/tools/47/accommodations/2610": {
     "title": "RESIDENCE FLORA TRISTAN",
     "price": "prix non trouvé",
     "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2610"
+  },
+  "/tools/47/accommodations/2546": {
+    "title": "RESIDENCE EINSTEIN",
+    "price": "prix non trouvé",
+    "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2546"
   }
 }
