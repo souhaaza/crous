@@ -24,11 +24,6 @@
     "price": "prix non trouvé",
     "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2071"
   },
-  "/tools/47/accommodations/2150": {
-    "title": "CITE COUFFON PAVOT",
-    "price": "prix non trouvé",
-    "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2150"
-  },
   "/tools/47/accommodations/2273": {
     "title": "CITE LAKANAL",
     "price": "prix non trouvé",
@@ -38,5 +33,10 @@
     "title": "CITE COUFFON PAVOT",
     "price": "prix non trouvé",
     "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2142"
+  },
+  "/tools/47/accommodations/2150": {
+    "title": "CITE COUFFON PAVOT",
+    "price": "prix non trouvé",
+    "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2150"
   }
 }
