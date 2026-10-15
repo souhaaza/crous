@@ -4,10 +4,10 @@
     "price": "prix non trouvé",
     "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2273"
   },
-  "/tools/47/accommodations/2546": {
-    "title": "RESIDENCE EINSTEIN",
+  "/tools/47/accommodations/2150": {
+    "title": "CITE COUFFON PAVOT",
     "price": "prix non trouvé",
-    "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2546"
+    "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2150"
   },
   "/tools/47/accommodations/2610": {
     "title": "RESIDENCE FLORA TRISTAN",
@@ -19,14 +19,9 @@
     "price": "prix non trouvé",
     "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2607"
   },
-  "/tools/47/accommodations/2150": {
-    "title": "CITE COUFFON PAVOT",
+  "/tools/47/accommodations/2546": {
+    "title": "RESIDENCE EINSTEIN",
     "price": "prix non trouvé",
-    "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2150"
-  },
-  "/tools/47/accommodations/3067": {
-    "title": "RESIDENCE JEAN ZAY",
-    "price": "prix non trouvé",
-    "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/3067"
+    "url": "https://trouverunlogement.lescrous.fr/tools/47/accommodations/2546"
   }
 }
